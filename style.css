@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    padding: 20px 150px 20px 150px;
+    background-color: white;
+    border-color: tomato;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 2rem;
+    color: magenta;
+    text-shadow:  0 2px greenyellow;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 5px;
+}
+body{
+    background-color: gray;
+}
+img{
+    height: 170px;
+    width: 200px;
+    background-color: white;
+}
+.parent{
+    display: flex;
+    border-color: mediumspringgreen;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 6px;
+    height: 550px;   
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    background-color: white;
+    padding: 10px 10px 0px 10px ;
+    margin: 2px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: tomato;
+    font-weight: bold;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 15px;    
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    color: blueviolet;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 25px;
+    color: blueviolet;
+}
+.box2{
+    position: relative;
+    left: 800px;
+}
+.box3{
+    position:relative;
+    top:250px;
+    right:479px;
+    margin-top: 50px;
+}
+.box4{
+    position: relative;
+    left: 560px;
+    top: 30px;
+}
+form{
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.4rem;
+}
+b{
+    font-size: 2rem;
+}
+button{
+    background-color: red;
+    color: black;
+}
+.parent2{
+    background-color: green;
+    height: 580px;
+    width: 800px;
+    border-color: indigo;
+    border-style: solid;
+    border-width: 8px;
+    box-shadow: 5px 5px 5px;
+}
+.child1,
+.child2{
+    height: 240px;
+    width: 398px;
+    background-color: lightgoldenrodyellow;
+    margin: 2px;
+}
+.child1{
+    position: relative;
+    right: 200px;
+    top: 22px;
+}
+.child2{
+    position: relative;
+    left: 200px;
+    top: -220px;
+}
+.child3{
+    background-color: lightgoldenrodyellow;
+    margin: 1px;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    top: -220px;
+}
+.lorem{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    line-height: 40px;
+}
+.flex-container{
+    height: 70px;
+    width: 600px;
+    background-color: lightgreen;
+    border-color: red;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 15px;   
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 480px;
+    right: 400px;
+    box-shadow: 5px 5px 5px;
+}
+.flex-items{
+    font-size: 1.3rem;
+    margin-top: 9px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
